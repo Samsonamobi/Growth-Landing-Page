@@ -150,7 +150,6 @@ img {
 .testimonial {
   background-color: var(--dark-color);
   color: #fff;
-  height: 100vh;
 }
 
 .testimonials-heading {
@@ -167,6 +166,7 @@ img {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 3rem 0;
+  max-height: 500px;
 }
 
 .card {
